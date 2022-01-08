@@ -42,7 +42,7 @@ jobs:
         env:
           GITHUB_COMMENT_LOG_LEVEL: 'debug'
         with:
-          org: itkq
+          org: mizzy
           repo: ${{ github.event.repository.name }}
           pr_number: ${{ github.event.number }}
           token: ${{ secrets.GITHUB_TOKEN }}
