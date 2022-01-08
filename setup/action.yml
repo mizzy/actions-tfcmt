@@ -12,11 +12,11 @@ runs:
     - run: sudo tar -C /usr/bin/ -zxf tfcmt_linux_amd64.tar.gz
       shell: bash
 
-    - run: curl -LO https://github.com/suzuki-shunsuke/github-comment/releases/download/v3.1.0/github-comment_3.1.0_linux_amd64.tar.gz
+    - run: curl -LO https://github.com/suzuki-shunsuke/github-comment/releases/download/v4.1.0/github-comment_4.1.0_linux_amd64.tar.gz
       shell: bash
 
-    - run: echo '8d065e8cd47b8913b7fb481fbf746553929197e3eea649a5fd1e7c6b5251d3ee  github-comment_3.1.0_linux_amd64.tar.gz' | sha256sum --check
+    - run: echo 'aa1df14b64d2e871fd395f63b10ca1c4322fb16dc8decca8fd9e67d360cefc79  github-comment_4.1.0_linux_amd64.tar.gz' | sha256sum --check
       shell: bash
 
-    - run: sudo tar -C /usr/bin/ -zxf github-comment_3.1.0_linux_amd64.tar.gz
+    - run: sudo tar -C /usr/bin/ -zxf github-comment_4.1.0_linux_amd64.tar.gz
       shell: bash
